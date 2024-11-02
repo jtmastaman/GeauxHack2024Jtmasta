@@ -1,3 +1,13 @@
+
+/*json file with country as array that contains Country string as name of country
+Food1 is the first food with resturants 1 and 2 attached
+Food2 is the second with resturants 3 and 4 attached
+Restaurant1 is the first
+Restaurant2 is the second
+Restaurant3 is the third
+Restaurant4 is the fourth
+
+*/
 {"country":[
     { "Country":"Italy", "Food1":"Ragu al bolognese", "Food2":"Tiramisu", "Restaurant1":"Sfoglia Rina", "Restaurant2":"Ristorante da Cisari", "Restaurant3":"Giacamo", "Restaurant4":"Pompi" },
     { "Country":"France", "Food1":"Coq Au Vin", "Food2":"Baguette", "Restaurant1":"La Jacobine", "Restaurant2":"Chez Marcel", "Restaurant3":"Au Levain des Pyrénées", "Restaurant4":"Chez Meunier " },
