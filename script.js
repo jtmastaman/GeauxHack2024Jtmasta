@@ -43,4 +43,4 @@ function storeInput() {
 }
 
 // Event listener for the store button
-document.getElementById('store-button').addEventListener('click', storeInput);
+document.getElementById('button').addEventListener('click', storeInput);
