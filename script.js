@@ -72,28 +72,4 @@ function displayCountryButtons(countries) {
             </ul>
         `;
         userList.appendChild(userDiv);
-    }
-
-    function displayCountryInfo(country) {
-        const userList = document.getElementById('user-list');
-        userList.innerHTML = ''; // Clear previous content
-    
-        // Create a div to display the country information
-        const userDiv = document.createElement('div');
-        userDiv.innerHTML = `
-            <h3>${country.Country}</h3>
-            <p>Popular Foods:</p>
-            <ul>
-                <li>${country.Food1}</li>
-                <li>${country.Food2}</li>
-            </ul>
-            <p>Restaurants:</p>
-            <ul>
-                <li>${country.Restaurant1}</li>
-                <li>${country.Restaurant2}</li>
-                <li>${country.Restaurant3}</li>
-                <li>${country.Restaurant4}</li>
-            </ul>
-        `;
-        userList.appendChild(userDiv)
     };
