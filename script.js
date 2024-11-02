@@ -26,21 +26,3 @@ Restaurant3 is the third
 Restaurant4 is the fourth
 
 */
-
-function storeInput() {
-    const userInput = document.getElementById('user-input').value; // Get the input value
-    const storedOutput = document.getElementById('stored-output');
-
-    // Create a new div for the stored value
-    const outputDiv = document.createElement('div');
-    outputDiv.textContent = userInput; // Set the text to the input value
-
-    // Append the new div to the output area
-    storedOutput.appendChild(outputDiv);
-
-    // Optionally, clear the input field
-    document.getElementById('user-input').value = '';
-}
-
-// Event listener for the store button
-document.getElementById('button').addEventListener('click', storeInput);
