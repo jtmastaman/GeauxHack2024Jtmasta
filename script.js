@@ -10,7 +10,7 @@ fetch('country.json')
         const userList = document.getElementById('user-list');
         data.forEach(user => {
             const userDiv = document.createElement('div');
-            userDiv.textContent = `Nam: ${user.Country}, Age: ${user.Food2}`;
+            userDiv.textContent = `Country: ${user.Country}`;
             userList.appendChild(userDiv);
         });
     })
