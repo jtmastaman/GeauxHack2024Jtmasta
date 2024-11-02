@@ -46,14 +46,5 @@ function displayCountryButtons(countries) {
                 <li>${country.Restaurant4}</li>
             </ul>
         `;
-        userList.appendChild(userDiv); // Add the country info to the user list
-    }
-/*json file with country as array that contains Country string as name of country
-Food1 is the first food with resturants 1 and 2 attached
-Food2 is the second with resturants 3 and 4 attached
-Restaurant1 is the first
-Restaurant2 is the second
-Restaurant3 is the third
-Restaurant4 is the fourth
-
-*/
+        userList.appendChild(userDiv)
+    };
