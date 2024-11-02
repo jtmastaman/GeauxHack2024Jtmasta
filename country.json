@@ -1,27 +1,132 @@
-
-/*json file with country as array that contains Country string as name of country
-Food1 is the first food with resturants 1 and 2 attached
-Food2 is the second with resturants 3 and 4 attached
-Restaurant1 is the first
-Restaurant2 is the second
-Restaurant3 is the third
-Restaurant4 is the fourth
-
-*/
-{"country":[
-    { "Country":"Italy", "Food1":"Ragu al bolognese", "Food2":"Tiramisu", "Restaurant1":"Sfoglia Rina", "Restaurant2":"Ristorante da Cisari", "Restaurant3":"Giacamo", "Restaurant4":"Pompi" },
-    { "Country":"France", "Food1":"Coq Au Vin", "Food2":"Baguette", "Restaurant1":"La Jacobine", "Restaurant2":"Chez Marcel", "Restaurant3":"Au Levain des Pyrénées", "Restaurant4":"Chez Meunier " },
-    { "Country":"Germany", "Food1":"Sauerbraten", "Food2":"Schnitzel", "Restaurant1":"Lutter & Wegner ", "Restaurant2":"Boulevard Friedrichstrasse", "Restaurant3":"Sissi in der Motzstraße", "Restaurant4":"Café Restaurant Joleschh" },
-    { "Country":"India", "Food1":"Samosa", "Food2":"Biryani", "Restaurant1":"Munni Lal Halwai", "Restaurant2":"Sweets Palace", "Restaurant3":"Paradise Biryani ", "Restaurant4":"Meghana Foods " },
-    { "Country":"China", "Food1":"Peking duck ", "Food2":"Dumplings ", "Restaurant1":"Sijiminfu", "Restaurant2":"Quanjude", "Restaurant3":"Xin Wang’s Cantonese Dim Sum", "Restaurant4":"Manti-Kashgar" },
-    { "Country":"Japan", "Food1":"Sushi", "Food2":"Ramen", "Restaurant1":"Sushi Saito", "Restaurant2":"Sushiro", "Restaurant3":"Sapporo Ramen Haruka", "Restaurant4":"Hakodate Ramen Houran" },
-    { "Country":"Ghana", "Food1":"Jolof rice", "Food2":"Fufu", "Restaurant1":"bukas at osu", "Restaurant2":"Cuppa Cappuccino", "Restaurant3":"Atta Maame Fufu", "Restaurant4":"Asaase Aban " },
-    { "Country":"Ethiopia", "Food1":"Poop", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "Country":"Nigeria", "Food1":"Doe", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "Country":"Cuba", "Food1":"Doe", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "Country":"Mexico", "Food1":"Doe", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "Country":"New York", "Food1":"Doe", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "Country":"Brazil", "Food1":"Doe", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "Country":"Chile", "Food1":"Doe", "Food2":"Doe", "Restaurant1":"Doe", "Restaurant2":"Doe", "Restaurant3":"Doe", "Restaurant4":"Doe" },
-    { "firstName":"Peter", "lastName":"Jones" }
-  ]}
+[
+  {
+    "Country": "Italy",
+    "Food1": "Ragu al bolognese",
+    "Food2": "Tiramisu",
+    "Restaurant1": "Sfoglia Rina",
+    "Restaurant2": "Ristorante da Cisari",
+    "Restaurant3": "Giacamo",
+    "Restaurant4": "Pompi"
+  },
+  {
+    "Country": "France",
+    "Food1": "Coq Au Vin",
+    "Food2": "Baguette",
+    "Restaurant1": "La Jacobine",
+    "Restaurant2": "Chez Marcel",
+    "Restaurant3": "Au Levain des Pyrénées",
+    "Restaurant4": "Chez Meunier "
+  },
+  {
+    "Country": "Germany",
+    "Food1": "Sauerbraten",
+    "Food2": "Schnitzel",
+    "Restaurant1": "Lutter & Wegner ",
+    "Restaurant2": "Boulevard Friedrichstrasse",
+    "Restaurant3": "Sissi in der Motzstraße",
+    "Restaurant4": "Café Restaurant Joleschh"
+  },
+  {
+    "Country": "India",
+    "Food1": "Samosa",
+    "Food2": "Biryani",
+    "Restaurant1": "Munni Lal Halwai",
+    "Restaurant2": "Sweets Palace",
+    "Restaurant3": "Paradise Biryani ",
+    "Restaurant4": "Meghana Foods "
+  },
+  {
+    "Country": "China",
+    "Food1": "Peking duck ",
+    "Food2": "Dumplings ",
+    "Restaurant1": "Sijiminfu",
+    "Restaurant2": "Quanjude",
+    "Restaurant3": "Xin Wang’s Cantonese Dim Sum",
+    "Restaurant4": "Manti-Kashgar"
+  },
+  {
+    "Country": "Japan",
+    "Food1": "Sushi",
+    "Food2": "Ramen",
+    "Restaurant1": "Sushi Saito",
+    "Restaurant2": "Sushiro",
+    "Restaurant3": "Sapporo Ramen Haruka",
+    "Restaurant4": "Hakodate Ramen Houran"
+  },
+  {
+    "Country": "Ghana",
+    "Food1": "Jolof rice",
+    "Food2": "Fufu",
+    "Restaurant1": "bukas at osu",
+    "Restaurant2": "Cuppa Cappuccino",
+    "Restaurant3": "Atta Maame Fufu",
+    "Restaurant4": "Asaase Aban "
+  },
+  {
+    "Country": "Ethiopia",
+    "Food1": "Poop",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "Country": "Nigeria",
+    "Food1": "Doe",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "Country": "Cuba",
+    "Food1": "Doe",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "Country": "Mexico",
+    "Food1": "Doe",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "Country": "New York",
+    "Food1": "Doe",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "Country": "Brazil",
+    "Food1": "Doe",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "Country": "Chile",
+    "Food1": "Doe",
+    "Food2": "Doe",
+    "Restaurant1": "Doe",
+    "Restaurant2": "Doe",
+    "Restaurant3": "Doe",
+    "Restaurant4": "Doe"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Jones"
+  }
+]
