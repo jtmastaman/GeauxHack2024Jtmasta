@@ -1,5 +1,20 @@
+#picture {
+  position: relative; /* Set the parent div to relative for absolute positioning */
+  display: inline-block; /* Ensure the container wraps around the image */
+}
 #picture img {
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 300px;
-  }
+  margin: 0;
+  border: 0;
+  border-radius: 0%;
+  width: 1000px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b0f0ff;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  
+}
