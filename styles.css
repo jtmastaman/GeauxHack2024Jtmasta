@@ -1,20 +1,44 @@
-#picture {
-  position: relative; /* Set the parent div to relative for absolute positioning */
-  display: inline-block; /* Ensure the container wraps around the image */
-}
-#picture img {
-  margin: 0;
-  border: 0;
-  border-radius: 0%;
-  width: 1000px;
-}
 
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #b0f0ff;
+  align-items: center;
   color: #333;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  
 }
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 50%;
+}
+ul {
+  text-align: center;
+  list-style-type: circle;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+li {
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+}
+p {
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+}
+#button-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 50px;               /* Optional: space between buttons */
+}
+
