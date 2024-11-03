@@ -8,9 +8,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: #b0f0ff;
   align-items: center;
+  text-align: center;
   color: #333;
   line-height: 1.6;
-  margin: 0;
+  margin: center;
   padding: 0;
 }
 .images {
@@ -23,8 +24,7 @@ body {
 ul {
   text-align: center;
   list-style-type: circle;
-  margin-left: 0px;
-  margin-bottom: 10px;
+  margin-left:auto;
 }
 li {
   text-align: center;
