@@ -73,3 +73,33 @@ function displayCountryButtons(countries) {
         `;
         userList.appendChild(userDiv);
     };
+
+    // Array of food facts to cycle through
+        const foodFacts = [
+        "Cashews come from a fruit!",
+        "Honey never spoils!",
+        "Chocolate is the seed of the cacao fruit!",
+        "Cucumbers are 95% water!",
+        "Pan, means bread in Japanese and Spanish!"
+        ];
+  
+        // Select the HTML element where the food fact will display
+        const foodFactElement = document.getElementById("food-fact");
+  
+        // Index for current food fact
+        let currentFactIndex = 0;
+  
+        // Function to update the food fact text
+        function updateFoodFact() {
+        foodFactElement.textContent = foodFacts[currentFactIndex];
+        currentFactIndex = (currentFactIndex + 1) % foodFacts.length;
+        }
+  
+        // Start the cycle, update every 5 seconds
+        setInterval(updateFoodFact, 10000);
+    
+        
+        
+
+
+    
