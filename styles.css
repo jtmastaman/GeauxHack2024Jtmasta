@@ -1,0 +1,87 @@
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b0f0ff;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  margin: center;
+  padding: 0;
+}
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 50%;
+}
+ul {
+  text-align: center;
+  list-style-type: circle;
+  margin-left:auto;
+}
+li {
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+}
+p {
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+}
+#button-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 50px;               /* Optional: space between buttons */
+}
+
+#picture {
+  position: relative; /* Set the parent div to relative for absolute positioning */
+  display: inline-block; /* Ensure the container wraps around the image */
+}
+#picture img {
+  margin: 0;
+  border: 0;
+  border-radius: 0%;
+  width: 1000px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b0f0ff;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  
+}
+
+  #text-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f9f9f9; 
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    color: #333;
+    max-width: 200px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+
+
